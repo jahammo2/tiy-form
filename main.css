@@ -9,11 +9,15 @@ body {
 	color: #560007;
 	background: #c6a9ad;
 	padding: 2em;
-	border: solid .2em #560007;
+	border: solid .2em #560007	;
 }
 
 .bio-p {
 	margin: auto auto .5em auto;
+}
+
+p {
+	color: blue;
 }
 
 /*label {
