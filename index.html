@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="main.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+<Head>
+<title>tiy-form</title>
+</Head>
+<body>
+  <div class="wrapper">
+    <form id="questions" action="index.html" method="post">
+      <p>
+        <label class="name" for="questions">Full Name
+          <input class="name-checkbox" type="text" name="full-name" placeholder="type here" value=""><br>
+        </label>
+      </p>
+      <p>
+        <label class="phone" for="questions">Phone Number
+          <input class="phone-checkbox" type="tel" name="phone-number" placeholder="type here" value="">
+        </label>
+      </p>
+      <p>
+        <label class="email" for="questions">Email
+          <input class="email-checkbox" type="email" name="phone-number" placeholder="type here" value="">
+        </label>
+      </p>
+      <p>
+      <label class="occupation" for="questions">Occupation
+        <select name="occupation">
+          <option value="military">Military</option>
+          <option value="sales">Sales</option>
+          <option value="technology">Technology</option>
+          <option value="medical">Medical</option>
+          <option value="education">Education</option>
+        </select>
+      </p>
+      <p class="bio-p">Brief Bio
+      </p>
+      <textarea name="bio" rows="8" cols="60"></textarea>
+<!-- Sex------------------------------------------ -->
+      <p>
+      <label class="sex" for="questions">Female
+        <input class="sex-checkbox" type="radio" name="female" placeholder="type here" value="">
+      </label>
+      </p>
+      <p>
+      <label class="sex" for="questions">Male
+        <input class="sex-checkbox" type="radio" name="male" placeholder="type here" value="">
+      </label>
+      </p>
+<!-- Notifications------------------------------------------ -->
+      <p>
+      <label class="notification" for="questions">SMS Notifications
+        <input class="notification-checkbox" type="checkbox" name="notifications" placeholder="type here" value="">
+      </label>
+      </p>
+      <p>
+      <label class="notification" for="questions">Email Notifications
+        <input class="notification-checkbox" type="checkbox" name="notifications" value="">
+      </label>
+      </p>
+<!-- Finish------------------------------------------ -->
+      <p>
+      <label class="terms" for="questions">By signing up, you are accepting terms and conditions
+        <input class="terms-checkbox" type="checkbox" name="terms" placeholder="type here" value="">
+      </label>
+      </p>
+      <p class="signup-p">
+      <input type="button" name="signup" value="Signup">
+      </p>
+    </form>
+  </div>
+</body>
+</html>

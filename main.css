@@ -1,0 +1,55 @@
+body {
+	background: #d3d3d3;
+}
+
+.wrapper {
+	width: 20em;
+	margin: 0 auto;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #560007;
+	background: #c6a9ad;
+	padding: 2em;
+	border: solid .2em #560007	;
+}
+
+.bio-p {
+	margin: auto auto .5em auto;
+}
+
+
+
+/*label {
+	padding: 3em 3em 3em 0;
+}*/
+
+/*.name-checkbox {
+	left: 3em;
+	margin: 0 0 0 1em;
+}*/
+
+.name-checkbox,
+.phone-checkbox,
+.email-checkbox,
+select {
+	float: right
+}
+
+.name-checkbox,
+.phone-checkbox,
+.email-checkbox {
+	width: 17em;
+}
+
+.sex-checkbox,
+.notification-checkbox,
+.terms-checkbox {
+	margin-left: 1em;
+}
+
+.signup-p {
+	margin: auto
+}
+
+.signup-p {
+	padding: 0 0 0 43%
+}
